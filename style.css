@@ -48,6 +48,13 @@ body {
 .col-md-4 h4{
     color: white;
 }
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar .dropdown:hover .dropdown-toggle {
+    background-color: #f8f9fa; /* This color is just an example; change it to match your design */
+}
+
 .dropdown-menu {
     display: flex;
     flex-wrap: wrap;
@@ -119,7 +126,9 @@ body {
       width: 100%;
     }
   }
-  
+  .navbar-collapse {
+    justify-content: center;
+}
   
 
 .navbar-logo {
